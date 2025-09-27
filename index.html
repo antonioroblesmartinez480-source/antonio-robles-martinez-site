@@ -1,148 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Antonio Robles Martínez — Escritor</title>
-  <meta name="description" content="Sitio oficial de Antonio Robles Martínez — Escritor y educador. Libros, artículos y proyectos." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <meta property="og:title" content="Antonio Robles Martínez — Escritor" />
-  <meta property="og:description" content="Escritor y educador. Libros, artículos y proyectos." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="cover.jpg" />
-  <meta name="theme-color" content="#0b0b0d" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Antonio Robles Martínez",
-    "jobTitle": "Escritor y educador",
-    "address": { "@type": "PostalAddress", "addressCountry": "DO", "addressLocality": "Santo Domingo" },
-    "url": "https://example.com",
-    "sameAs": []
-  }
-  </script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Antonio Robles Martínez — Mentalidad de hierro</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header class="nav">
-    <div class="container">
-      <a class="brand" href="#inicio">ARM</a>
-      <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#libros">Libros</a>
-        <a href="#blog">Blog</a>
-        <a href="#contacto" class="btn">Contacto</a>
-      </nav>
-    </div>
-  </header>
 
-  <main id="inicio" class="hero">
-    <div class="container hero-grid">
-      <div class="hero-text">
-        <h1><span class="fade">Antonio</span> <span class="stroke">Robles</span> <span class="fade">Martínez</span></h1>
-        <p class="tagline">Escritor · Educador · Creador</p>
-        <div class="cta">
-          <a href="#libros" class="btn">Ver libros</a>
-          <a href="#blog" class="btn ghost">Leer artículos</a>
-        </div>
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="#"><strong>Antonio Robles</strong></a>
+      <div style="display:flex;gap:16px;">
+        <a href="#galeria">Galería</a>
+        <a href="#libro">Libro</a>
+        <a href="#contacto">Contacto</a>
       </div>
-      <div class="hero-card">
-        <div class="glass">
-          <h3>Mentalidad de Hierro</h3>
-          <p>Una guía para forjar disciplina, carácter y propósito. Pronto disponible en plataformas como Amazon KDP.</p>
-          <a class="mini" href="#contacto">Saber más →</a>
-        </div>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <span class="pill">MENTALIDAD DE HIERRO</span>
+      <h1>Vive con propósito, disciplina y fe.</h1>
+      <p class="muted">Autor de <em>Mentalidad de hierro</em>. Entrenando carácter, paz mental y enfoque para pertenecer al 1%.</p>
+      <div style="display:flex;gap:12px;margin-top:12px;">
+        <a class="btn btn--accent" href="#libro">Ver libro</a>
+        <a class="btn" href="#contacto">Contáctame</a>
       </div>
     </div>
-  </main>
-
-  <section id="sobre-mi" class="section">
-    <div class="container two-col">
-      <div>
-        <h2>Sobre mí</h2>
-        <p><strong>Antonio Robles Martínez</strong> (Santo Domingo, República Dominicana) es escritor y educador. 
-        Desde temprana edad cultivó la escritura —poemas, cuentos y canciones— y hoy combina su vocación docente con la literatura, 
-        el arte y la tecnología para inspirar a otros a vivir con propósito.</p>
-        <p>Licenciado en Matemáticas orientada a Educación Secundaria por la Universidad Tecnológica de Santo Domingo (INTEC). 
-        Interesado en informática, diseño y multimedia.</p>
-      </div>
-      <aside class="card">
-        <h3>Áreas de interés</h3>
-        <ul>
-          <li>Literatura y narrativa</li>
-          <li>Educación y aprendizaje</li>
-          <li>Diseño y multimedia</li>
-          <li>Tecnología creativa</li>
-        </ul>
-      </aside>
+    <div class="card">
+      <img src="assets/images/portada-6x9.png" alt="Portada Mentalidad de hierro" style="width:100%;border-radius:10px;">
     </div>
   </section>
 
-  <section id="libros" class="section alt">
-    <div class="container">
-      <h2>Libros</h2>
-      <div class="cards">
-        <article class="book card">
-          <div class="badge">Próximo</div>
-          <h3>Mentalidad de Hierro</h3>
-          <p>Principios y estrategias para construir fortaleza interior, disciplina y estabilidad en todas las áreas de la vida.</p>
-          <a class="mini" href="#contacto">Notificarme en el lanzamiento →</a>
-        </article>
-        <article class="book card ghost">
-          <h3>Título por confirmar</h3>
-          <p>Espacio reservado para tu próximo proyecto editorial.</p>
-        </article>
+  <!-- GALERÍA / SLIDER -->
+  <section id="galeria">
+    <h2>Galería</h2>
+    <p class="muted">Un poco de mi trabajo y mi camino.</p>
+    <div class="slider" id="slider">
+      <div class="slides" id="slides">
+        <div class="slide"><img src="assets/images/foto1.jpg" alt="Antonio caminando"></div>
+        <div class="slide"><img src="assets/images/foto2.jpg" alt="Antonio leyendo"></div>
+      </div>
+      <button class="ctrl prev" aria-label="Anterior" onclick="move(-1)">‹</button>
+      <button class="ctrl next" aria-label="Siguiente" onclick="move(1)">›</button>
+    </div>
+  </section>
+
+  <!-- LIBRO -->
+  <section id="libro" class="book">
+    <div class="card">
+      <h2>Libro: <em>Mentalidad de hierro</em></h2>
+      <p><strong>Subtítulo:</strong> Lo que todo hombre y mujer debe saber para construir su valor y convertirse en el 1%.</p>
+      <p class="muted">Lee las primeras 5 páginas gratis. Para acceder al libro completo, más adelante activaremos la compra segura.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 4px;">
+        <a class="btn btn--accent" href="#contacto">Comprar (próximamente)</a>
+        <a class="btn" href="assets/pdf/preview-5pag.pdf" target="_blank" rel="noopener">Leer vista previa (5 págs)</a>
+      </div>
+      <p class="note">*Cuando activemos el checkout, recibirás el enlace de descarga del PDF completo tras el pago.</p>
+    </div>
+    <div class="card">
+      <div style="aspect-ratio:4/5; border:1px solid #eee; border-radius:8px; overflow:hidden;">
+        <iframe src="assets/pdf/preview-5pag.pdf#view=fitH" title="Vista previa del libro" style="width:100%;height:100%;border:0;"></iframe>
       </div>
     </div>
   </section>
 
-  <section id="blog" class="="section">
-    <div class="container">
-      <h2>Blog</h2>
-      <div class="posts">
-        <article class="post">
-          <h3>Disciplina: el músculo de la mente</h3>
-          <p>Ideas breves para entrenar la voluntad, poner límites sanos y enfocarte en lo esencial.</p>
-          <a class="mini" href="#">Leer más</a>
-        </article>
-        <article class="post">
-          <h3>Cómo proteger tu paz</h3>
-          <p>Estrategias prácticas para blindar tu atención y energía en un mundo que empuja al ruido.</p>
-          <a class="mini" href="#">Leer más</a>
-        </article>
-        <article class="post">
-          <h3>Notas sobre propósito</h3>
-          <p>Preguntas guía para alinear lo que haces con lo que eres y hacia dónde vas.</p>
-          <a class="mini" href="#">Leer más</a>
-        </article>
-      </div>
-    </div>
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Charlamos? Escríbeme a <a href="mailto:antoniorobles2k@gmail.com">antoniorobles2k@gmail.com</a></p>
   </section>
+</main>
 
-  <section id="contacto" class="section alt">
-    <div class="container contact">
-      <h2>Contacto</h2>
-      <p>Para colaboraciones, entrevistas o invitaciones académicas:</p>
-      <ul class="contact-list">
-        <li><a href="mailto:contacto@arm-escritor.com">contacto@arm-escritor.com</a></li>
-        <li><a href="#" target="_blank" rel="noopener">Próximamente: redes y boletín</a></li>
-      </ul>
-    </div>
-  </section>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;">
+    <span>© <span id="y"></span> Antonio Robles Martínez</span>
+    <span style="color:#4b5563">Hecho con disciplina y propósito.</span>
+  </div>
+</footer>
 
-  <footer class="footer">
-    <div class="container">
-      <p>© <span id="y"></span> Antonio Robles Martínez. Todos los derechos reservados.</p>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
